@@ -1,0 +1,36 @@
+{
+  "name": "material-ui-schedule",
+  "version": "0.1.0",
+  "description": "Schedule Component for @material-ui",
+  "main": "src/index.js",
+  "scripts": {
+    "storybook": "start-storybook"
+  },
+  "repository": "git@github.com:rjhoffmann/material-ui-schedule.git",
+  "author": "Ryan Hoffmann <ryan@hoff.pub>",
+  "license": "MIT",
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "react-is": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@storybook/addon-actions": "^5.3.13",
+    "@storybook/addon-docs": "^5.3.13",
+    "@storybook/addon-knobs": "^5.3.13",
+    "@storybook/addon-viewport": "^5.3.13",
+    "@storybook/react": "^5.3.13",
+    "babel-loader": "^8.0.6",
+    "cz-conventional-changelog": "^3.1.0"
+  },
+  "peerDependencies": {
+    "@material-ui/core": "^4.9.2",
+    "@material-ui/icons": "^4.9.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
